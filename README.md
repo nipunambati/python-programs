@@ -112,7 +112,17 @@ Q-28 Find factorial of N
 
 ![App Screenshot](https://i.ibb.co/zWBBb5fH/image-2026-09-25-225403628.png)
 
-Q-29 Count from 1 to N
+Q-29 Grade calculator from marks
+
+![App Screenshot](https://i.ibb.co/G4ygsRqY/image-2026-09-25-225806895.png)
+
+Q-30 Check whether a number lies between 10 and 50
+
+![App Screenshot](https://i.ibb.co/qMwdLSL7/image-2026-09-25-225922430.png)
+
+
+
+
 
 
 
