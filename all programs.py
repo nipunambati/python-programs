@@ -19,3 +19,7 @@ print("Hello,", name + "!")
 
 Q-3 
 
+string = "nipun"
+for char in string:
+    print(char)
+
