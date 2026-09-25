@@ -214,6 +214,79 @@ else:
 
 Q-23 
 
+for i in range(1, 11):
+    print(i)
+
+
+Q-24
+
+for i in range(10, 0, -1):
+    print(i)
+
+
+Q-25
+
+for i in range(5, 51, 5):
+    print(i)
+
+Q-26
+
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+Q-27
+
+total = 0
+
+for i in range(1, 11):
+    total += i
+
+print(total)
+
+Q-28
+
+n = int(input("Enter N: "))
+
+factorial = 1
+
+for i in range(1, n + 1):
+    factorial *= i
+
+print("Factorial of", n, "is", factorial)
+
+
+Q-29
+
+marks = int(input("Enter marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+elif marks >= 50:
+    print("Grade E")
+else:
+    print("Grade F")
+
+Q-30
+
+num = int(input("Enter a number: "))
+
+if num >= 10 and num <= 50:
+    print("The number lies between 10 and 50")
+else:
+    print("The number does not lie between 10 and 50")
+
+
+
+
+
 
 
 
