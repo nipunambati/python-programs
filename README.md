@@ -1,6 +1,5 @@
 # python-programs
 
-
 Q-1 Print name, age, college and branch
 
 ![App Screenshot](https://i.ibb.co/8TwKt7Z/q-1.png) 
@@ -89,7 +88,45 @@ Q-22 Check whether a year is a leap year
 
 ![App Screenshot](https://i.ibb.co/Ld05ngZK/image-2026-09-25-223835147.png)
 
-Q-23 
+Q-23 Print numbers 1–10
+
+![App Screenshot](https://i.ibb.co/s9zSsJ5W/image-2026-09-25-224430198.png)
+
+Q-24 Print numbers 10–1 
+
+![App Screenshot](https://i.ibb.co/mC0n1c5b/image-2026-09-25-224613353.png)
+
+Q-25 Print multiples of 5
+
+![App Screenshot](https://i.ibb.co/2xRyDQY/image-2026-09-25-224916917.png)
+
+Q-26 Print multiplication table
+
+![App Screenshot](https://i.ibb.co/Zpqt4nbp/image-2026-09-25-225040094.png)
+
+Q-27 Sum numbers 1–10
+
+![App Screenshot](https://i.ibb.co/4w4SwLJD/image-2026-09-25-225156833.png)
+
+Q-28 Find factorial of N 
+
+![App Screenshot](https://i.ibb.co/zWBBb5fH/image-2026-09-25-225403628.png)
+
+Q-29 Count from 1 to N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
