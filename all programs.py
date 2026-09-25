@@ -13,3 +13,9 @@ print(branch)
 
 
 Q-2 
+
+name = input("Enter your name:nipun ")
+print("Hello,", name + "!")
+
+Q-3 
+
