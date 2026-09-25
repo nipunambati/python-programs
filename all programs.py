@@ -1,4 +1,4 @@
-Q-1 
+Q-1 Print name, age, college and branch 
 
 name = ""
 age = 
@@ -10,20 +10,18 @@ print(age)
 print(college)
 print(branch)
 
-
-
-Q-2 
+Q-2 Take name as input and greet the user
 
 name = input("Enter your name:nipun ")
 print("Hello,", name + "!")
 
-Q-3 
+Q-3 Take a string and print each character
 
 string = "nipun"
 for char in string:
     print(char)
 
-Q-4
+Q-4 Count vowels
 
 text = "Python is Fun!"
 vowels = "aeiou"
@@ -31,38 +29,38 @@ vowel_list = [char for char in text if char in vowels]
 print("Vowels found:", vowel_list)
 print("Total number of vowels:", len(vowel_list))
 
-Q-5 
+Q-5 Count spaces
 
 s = "Count the spaces in this string."
 spaces = s.count(" ")
 print(spaces)
 
-Q-6 
+Q-6 Reverse a string
 
 s = "nipun"
 reversed_s = s[::-1]
 print(reversed_s)
 
-Q-7
+Q-7 Count occurrence of a character
 
 text = "banana"
 char_to_count = "a"
 count = text.count(char_to_count)
 print(f"The character '{char_to_count}' appears {count} times.")
 
-Q-8
+Q-8 Count words in a sentence
 
 sentence = "Python is fun."
 word_count = len(sentence.split())
 print(word_count)
 
-Q-9
+Q-9 Find the longest word
 
 s = "a aa aaa aa"
 longest = max(s.split(), key=len)
 print(longest)
 
-Q-10
+Q-10 Check whether a string is palindrome
 
 def is_palindrome(s):
     s = s.lower().replace(" ", "")
@@ -74,7 +72,7 @@ if is_palindrome(word):
 else:
     print(f"'{word}' is not a palindrome")
 
-Q-11
+Q-11 Convert lowercase to uppercase
 
 text = "nipun"
 
@@ -83,14 +81,12 @@ print(text.upper())
 print(text.islower())
 print(text.isupper())
 
-Q-12 
+Q-12 Take name as input and greet the user
 
 name = input("Enter your name:")
-
 print(f"Hello, {name}! Welcome!")
 
-
-Q-13 
+Q-13 Perform all arithmetic operations on two numbers
 
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
@@ -112,7 +108,7 @@ print(f"Floor Division ({num1} // {num2}) = {floor_division}")
 print(f"Modulus/Remainder ({num1} % {num2}) = {modulus}")
 print(f"Exponentiation ({num1} ** {num2}) = {exponentiation}")
 
-Q-14 
+Q-14 Convert Celsius to Fahrenheit
 
 celsius = float(input("Enter temperature in Celsius: "))
 
@@ -120,7 +116,7 @@ fahrenheit = (celsius * 9/5) + 32
 
 print(f"{celsius}°C is equal to {fahrenheit:.2f}°F")
 
-Q-15
+Q-15 Calculate total and percentage of 5 subjects
 
 eng = float(input("eng: "))
 hindi = float(input("hindi: "))
@@ -135,7 +131,7 @@ print("\n--- Results ---")
 print(f"Total Marks Obtained: {total_marks} / 500")
 print(f"Percentage: {percentage:.2f}%")
 
-Q-16 
+Q-16 Swap two numbers
 
 a = 10
 b = 20
@@ -150,7 +146,7 @@ b = temp
 print(f"The value after swapping of a is {a}")
 print(f"The value after swapping of b is {b}")
 
-Q-17 
+Q-17 Convert seconds into hours, minutes and seconds
 
 total_seconds = 10000
 
@@ -161,7 +157,7 @@ seconds = remaining_seconds % 60
 
 print(f"{hours} hours, {minutes} minutes, and {seconds} seconds")
 
-Q-18
+Q-18 Check whether a number is positive, negative or zero
 
 num = float(input("Enter a number: "))
 
@@ -172,7 +168,7 @@ elif num < 0:
 else:
     print("The number is zero.")
 
-Q-19
+Q-19  Check whether a number is even or odd
 
 num = int(input("Enter a number: "))
 
@@ -181,8 +177,7 @@ if num % 2 == 0:
 else:
     print("Odd")
 
-
-Q-20
+Q-20 Check whether a person is eligible to vote
 
 age = int(input("Enter your age: "))
 
@@ -191,7 +186,7 @@ if age >= 18:
 else:
     print("You are not eligible to vote.")
 
-Q-21
+Q-21 Find greater of two numbers
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
@@ -203,7 +198,7 @@ elif num2 > num1:
 else:
     print("Both numbers are equal.")
 
-Q-22
+Q-22 Check whether a year is a leap year
 
 year = int(input("Enter a year: "))
 
@@ -212,31 +207,31 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 else:
     print(f"{year} is not a leap year.")
 
-Q-23 
+Q-23  Print numbers 1–10
 
 for i in range(1, 11):
     print(i)
 
 
-Q-24
+Q-24 Print numbers 10–1
 
 for i in range(10, 0, -1):
     print(i)
 
 
-Q-25
+Q-25 Print multiples of 5
 
 for i in range(5, 51, 5):
     print(i)
 
-Q-26
+Q-26 Print multiplication table
 
 num = int(input("Enter a number: "))
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
 
-Q-27
+Q-27 Sum numbers 1–10
 
 total = 0
 
@@ -245,7 +240,7 @@ for i in range(1, 11):
 
 print(total)
 
-Q-28
+Q-28 Find factorial of N
 
 n = int(input("Enter N: "))
 
@@ -257,7 +252,7 @@ for i in range(1, n + 1):
 print("Factorial of", n, "is", factorial)
 
 
-Q-29
+Q-29 Grade calculator from marks
 
 marks = int(input("Enter marks: "))
 
@@ -274,7 +269,7 @@ elif marks >= 50:
 else:
     print("Grade F")
 
-Q-30
+Q-30 Check whether a number lies between 10 and 50
 
 num = int(input("Enter a number: "))
 
